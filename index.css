@@ -5,7 +5,7 @@
 
 .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -18,12 +18,19 @@
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     
-    .navigation #hidecontact {
-        display: none;
+    .navigation {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        margin: 5%;
     }
 
-
+    .navigation ul,li {
+        margin: 10%;
+        display:block;
+        padding: 0px 0px;
+    }
 
 }
