@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
     background-color: #112240;
     color: rgb(100, 255, 218); 
+    font-family: "Montserrat", sans-serif;
 }
 
 .navigation {
@@ -14,14 +17,41 @@
     list-style-type: none;
     display: inline-block;
     padding: 0px 20px;
+    font-weight: 600;
+    transition: ease-in-out 0.4s;
 }
 
-#name {
+.navigation li:hover {
+    color: #008aa9;
+}
+
+#name a {
     font-size: 1.3em;
+    font-weight: 800;
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+
+#name a:hover {
+    color:#008aa9;
+}
+
+#resume button {
+    background-color:   rgb(100, 255, 218);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 13px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+#resume button:hover {
+    background-color: #008aa9;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     
     .navigation {
         display: block;
