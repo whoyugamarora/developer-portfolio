@@ -2,7 +2,7 @@
 
 * {
     background-color: #112240;
-    
+    margin: 5px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -83,9 +83,20 @@
     font-size: 40px;
 }
 
-.aboutdiv {
-    width: 50%;
+#profilepic {
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
 }
+
+#pfp {
+    width: 80%;
+}
+
+
+
+
+
 
 
 @media (max-width: 720px) {
