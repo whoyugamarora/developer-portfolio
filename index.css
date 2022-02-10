@@ -2,15 +2,19 @@
 
 * {
     background-color: #112240;
-    color: rgb(100, 255, 218); 
+    color: whitesmoke; 
     font-family: "Montserrat", sans-serif;
 }
+
+
+ /*  Navigation Bar Styling Starts from here*/ 
 
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items:center;
     margin: 2%;
+    transition: ease-in-out 0.5s;
 }
 
 .navigation li {
@@ -19,6 +23,7 @@
     padding: 0px 20px;
     font-weight: 600;
     transition: ease-in-out 0.4s;
+    color: rgb(100, 255, 218);
 }
 
 .navigation li:hover {
@@ -30,7 +35,9 @@
     font-weight: 800;
     text-decoration: none;
     transition: ease 0.3s;
+    color: rgb(100, 255, 218);
 }
+
 
 #name a:hover {
     color:#008aa9;
@@ -49,6 +56,18 @@
 #resume button:hover {
     background-color: #008aa9;
 }
+
+#hr {
+    border-radius: 20%;
+    border-color: #008aa9;
+}
+
+
+
+/*  Section 1 - About Styling Starts from here*/ 
+
+
+
 
 
 @media (max-width: 650px) {
