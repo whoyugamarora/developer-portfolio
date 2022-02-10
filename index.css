@@ -6,6 +6,7 @@
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items:center;
     margin: 2%;
 }
 
@@ -15,7 +16,9 @@
     padding: 0px 20px;
 }
 
-
+#name {
+    font-size: 1.3em;
+}
 
 
 @media (max-width: 600px) {
