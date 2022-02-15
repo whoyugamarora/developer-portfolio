@@ -8,15 +8,27 @@
     <link rel="icon" type="image/png" href="favicon1.png">
     <link rel="stylesheet" href="index.css">
     <title>Yugam Arora - Web Developer</title>
+
+
+
+
 </head>
 
 <body>
 
-    <nav class="navigation" .>
-        <div>
-            <p id="name"><a href="#">Yugam Arora</a></p>
+    <nav class="navigation">
+        <div id="mobile-title">
+            <div>
+                <p id="name"><a href="#">Yugam Arora</a></p>
+            </div>
+            <div id="hamburger" class="hamburger">
+                <span id="span"></span>
+                <span id="span"></span>
+                <span id="span"></span>
+            </div>
         </div>
-        <div>
+
+        <div class="navlinks" id="navlinks">
             <ul>
                 <a href="#about">
                     <li>About</li>
@@ -53,6 +65,24 @@
     <footer>
 
     </footer>
+
+    <script>
+        if (document.documentElement.clientWidth < 720) {
+            var hamburger = document.getElementById('hamburger');
+            var menu = document.getElementById('navlinks');
+            hamburger.addEventListener('click', function () {
+                this.classList.toggle("change");
+                if (menu.style.display === "none") {
+                    menu.style.display = "block";
+                } else {
+                    menu.style.display = "none";
+                }
+            })
+        }
+    </script>
+
 </body>
+
+
 
 </html>
