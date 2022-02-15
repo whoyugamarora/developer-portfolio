@@ -31,6 +31,10 @@
     color: #008aa9;
 }
 
+.navlinks {
+    transition: ease-out 1s;
+}
+
 .hamburger #span {
     display: block;
     width: 33px;
@@ -148,10 +152,12 @@
 
     .navlinks {
         display: none;
+        
     }
 
     .navlinks.show {
         display: block;
+        transition: ease-out 1s;
     }
 
 
