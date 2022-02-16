@@ -8,41 +8,33 @@
     <link rel="icon" type="image/png" href="favicon1.png">
     <link rel="stylesheet" href="index.css">
     <title>Yugam Arora - Web Developer</title>
-
-
-
-
 </head>
 
 <body>
 
     <nav class="navigation">
-        <div id="mobile-title">
-            <div>
-                <p id="name"><a href="#">Yugam Arora</a></p>
-            </div>
-            <div id="hamburger" class="hamburger">
-                <span id="span"></span>
-                <span id="span"></span>
-                <span id="span"></span>
-            </div>
+        <div class="logo">
+            <h4><a href="#">Yugam Arora</a></h4>
         </div>
 
-        <div class="navlinks" id="navlinks">
-            <ul>
-                <a href="#about">
-                    <li>About</li>
-                </a>
-                <a href="#about">
-                    <li>Projects</li>
-                </a>
-                <a href="#about">
-                    <li id="hidecontact">Contact</li>
-                </a>
-                <a href="#about">
-                    <li id="resume"><button>Resume</button></li>
-                </a>
-            </ul>
+        <ul class="navlinks">
+            <li><a href="#about">
+                    About
+                </a></li>
+            <li><a href="#about">
+                    Projects
+                </a></li>
+            <li id="hidecontact"><a href="#about">
+                    Contact
+                </a></li>
+            <li id="resume"><a href="#about">
+                    Resume
+                </a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
     </nav>
 
@@ -55,6 +47,8 @@
         <div id="aboutname">
             <small>Hi👋 My name is</small>
             <h1>Yugam Arora!</h1>
+            <small>I love to explore things!</small>
+
         </div>
     </section>
 
@@ -66,20 +60,7 @@
 
     </footer>
 
-    <script>
-        if (document.documentElement.clientWidth < 720) {
-            var hamburger = document.getElementById('hamburger');
-            var menu = document.getElementById('navlinks');
-            hamburger.addEventListener('click', function () {
-                this.classList.toggle("change");
-                if (menu.style.display === "none") {
-                    menu.style.display = "block";
-                } else {
-                    menu.style.display = "none";
-                }
-            })
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
 
