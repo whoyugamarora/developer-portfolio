@@ -139,7 +139,7 @@ body {
     .navlinks {
         position: fixed;
         right: 0px;
-        height: 89vh;
+        height: 75vh;
         top: 10vh;
         background-color: #112240;
         display: flex;
