@@ -94,7 +94,7 @@ section {
     margin-bottom: 15%;
 }
 
-.about {
+.heading {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -191,11 +191,11 @@ section {
    /* About Section */
 
 
-    .about {
+    .heading {
         display: flex;
         justify-content: space-around;
         align-items:center;
-        height: 75vh;
+        height: 70vh;
     }
 
     #aboutname {
