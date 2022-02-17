@@ -86,7 +86,7 @@ body {
 
 
 
-/*  Section 1 - About Styling Starts from here*/ 
+/*  Section 1 - Heading Styling Starts from here*/ 
 
 
 section {
@@ -123,6 +123,21 @@ section {
 }
 
 
+
+/* About Styling Starts here */
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+
+
+
+
 @media screen and (max-width: 1024px) {
 
   .navlinks {
@@ -130,6 +145,19 @@ section {
   }
 
 }
+
+
+
+/* About Styling Starts here */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+
 
 
 
@@ -216,6 +244,18 @@ section {
     #profilepic {
         display:none;
     }
+
+    /* About Section starts here */
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:baseline;
+    }
+    
+
+
 
 
 
