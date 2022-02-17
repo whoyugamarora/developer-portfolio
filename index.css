@@ -10,13 +10,13 @@
 
 body {
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 
  /*  Navigation Bar Styling Starts from here*/ 
 
 .navigation {
+    position: sticky;
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -135,7 +135,6 @@ body {
 
     body {
         overflow-x: hidden;
-        overflow-y: hidden;
     }
 
     .navlinks {
