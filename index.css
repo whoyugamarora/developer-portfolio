@@ -92,7 +92,6 @@ body {
 .about {
     display: flex;
     flex-direction: row;
-   
     justify-content: space-around;
     align-items:center;
     margin-left: 5%;
@@ -100,15 +99,18 @@ body {
 }
 
 #aboutname {
-
     color: whitesmoke;
     font-size: 40px;
+    animation: fadeIn 3s;
 }
+
+
 
 #profilepic {
     align-items: center;
     text-align: center;
     justify-content: space-around;
+    animation: fadeIn 3s;
 }
 
 #pfp {
@@ -202,3 +204,12 @@ body {
 
 
 }
+
+
+/* Animations */
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
