@@ -194,17 +194,21 @@ section {
 
     .about {
         display: flex;
-        flex-direction: column-reverse;
         justify-content: space-around;
         align-items:center;
+        height: 75vh;
     }
 
     #aboutname {
-        font-size: 25px;
-        text-align: center;
+        font-size: 30px;
+        text-align: left;
         align-items: center;
         margin-top: 20%;
       }
+
+    #profilepic {
+        display:none;
+    }
 
 
 
