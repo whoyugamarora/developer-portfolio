@@ -21,7 +21,6 @@ body {
     justify-content: space-around;
     align-items:center;
     min-height: 8vh;
-    margin: 2%;
     transition: ease-in-out 0.5s;
 }
 
