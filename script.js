@@ -11,3 +11,16 @@ burger.addEventListener('click', () => {
 burger.addEventListener('click', () => {
     burger.classList.toggle('toggle');
 })
+
+const navbar = document.querySelector('.navigation');
+let navTop = navbar.offsetTop;
+
+function fixedNav() {
+  if (window.scrollY >= navTop) {    
+    navbar.classList.add('fixed');
+  } else {
+    navbar.classList.remove('fixed');    
+  }
+}
+
+window.addEventListener('scroll', fixedNav);

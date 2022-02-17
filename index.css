@@ -106,7 +106,7 @@ section {
 #aboutname {
     color: whitesmoke;
     font-size: 40px;
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
 }
 
 
@@ -141,6 +141,14 @@ section {
     body {
         overflow-x: hidden;
     }
+
+    .navigation.fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: 0 0 0 0px;
+        box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
+      }
 
     .navlinks {
         position: fixed;
