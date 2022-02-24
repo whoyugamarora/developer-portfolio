@@ -182,14 +182,14 @@ section {
     .navlinks {
         position: fixed;
         right: 0px;
-        height: 100vh;
-        padding: 6vh;
+        height: 92vh;
+        padding: 2vh;
         top: 7vh;
         background-color: #112240;
         display: flex;
         flex-direction: column;
         align-items: center;
-        border-radius:  0 0  10px 10px;
+        border-radius:  0 0 10px 10px;
         width: 100%;
         transform: translateX(100%);
         -webkit-transform: translateX(100%);
