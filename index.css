@@ -21,7 +21,7 @@ body {
     justify-content: space-around;
     align-items:center;
     min-height: 8vh;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.1s;
 }
 
 .navlinks {
