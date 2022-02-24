@@ -181,8 +181,8 @@ section {
 
     .navlinks {
         position: fixed;
-        height: 92vh;
-        margin: 3vh;
+        height: 93vh;
+        margin: 2vh;
         top: 5vh;
         background-color: #112240;
         display: flex;
@@ -196,6 +196,7 @@ section {
         transition: transform 0.4s ease-in;
         -webkit-transition:  transform 0.4s ease-in;
         -moz-transition: transform 0.4s ease-in;
+        overflow: hidden;
     }
 
    
