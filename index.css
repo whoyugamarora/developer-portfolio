@@ -136,10 +136,15 @@ section {
 }
 
 
+#socialicons {
+    height: 20px;
+    width: 20px;
+}
 
 #socialicons:hover {
  opacity: 0.5;
- transition: ease-in-out 0.4s;   
+ transition: ease-in-out 0.4s;
+ 
 }
 
 
