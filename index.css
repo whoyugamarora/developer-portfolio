@@ -178,7 +178,8 @@ section {
         width: 100%;
         margin:0px;
         box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
-      }
+        z-index: 9999;
+    }
 
     .navlinks {
         position: absolute;
