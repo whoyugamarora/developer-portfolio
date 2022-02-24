@@ -183,8 +183,9 @@ section {
         position: fixed;
         right: 0px;
         height: 100vh;
-        padding: 10vh;
+        padding: 6vh;
         top: 7vh;
+        margin-bottom;
         background-color: #112240;
         display: flex;
         flex-direction: column;
