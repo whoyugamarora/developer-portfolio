@@ -137,6 +137,13 @@ section {
 
 
 
+#socialicons:hover {
+ opacity: 0.5;
+ transition: ease-in-out 0.4s;   
+}
+
+
+
 
 
 @media screen and (max-width: 1024px) {
@@ -182,8 +189,8 @@ section {
     }
 
     .navlinks {
-        position: absolute;
-        height: 94vh;
+        position: fixed;
+        height: 92vh;
         margin: 1vh;
         top: 5vh;
         background-color: #112240;
@@ -206,6 +213,10 @@ section {
         transform: translateX(0%);
         -webkit-transform: translateX(0%);
         -moz-transform: translateX(0%);
+    }
+
+    .nav-passive {
+        transform: translateX(-100%);
     }
   
    .burger{

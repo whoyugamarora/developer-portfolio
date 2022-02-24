@@ -1,9 +1,15 @@
 const burger = document.querySelector('.burger');
 const nav = document.querySelector('.navlinks');
+const navlinkitem = document.querySelector(".dropdown-item");
+
 
 //toggle nav
 burger.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
+})
+
+nav.addEventListener ("click", () => {
+  navlinkitem.classList.toggle('nav-passive');
 })
 
 
@@ -24,3 +30,4 @@ function fixedNav() {
 }
 
 window.addEventListener('scroll', fixedNav);
+
