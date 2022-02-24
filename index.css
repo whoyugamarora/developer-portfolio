@@ -182,7 +182,7 @@ section {
     .navlinks {
         position: fixed;
         height: 92vh;
-        margin: 5vh;
+        margin: 3vh;
         top: 5vh;
         background-color: #112240;
         display: flex;
